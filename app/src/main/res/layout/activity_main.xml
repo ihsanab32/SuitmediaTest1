@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/dimen16dp"
+    tools:context=".view.activities.main.MainActivity">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="@dimen/dimen250dp"
+        android:layout_height="@dimen/dimen100dp"
+        app:srcCompat="@drawable/img_suitmedia" />
+
+    <com.libizo.CustomEditText
+        android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen50dp"
+        android:layout_marginTop="@dimen/dimen10dp"
+        android:layout_marginBottom="@dimen/dimen10dp"
+        android:fontFamily="@font/qs_reguler"
+        android:hint="@string/input_text_disini"
+        android:inputType="textCapWords"
+        app:libIZO_clearIconTint="@color/black"
+        app:libIZO_setBorderColor="@color/colorPrimary"
+        app:libIZO_setBorderView="true"
+        app:libIZO_setClearIconVisible="true"
+        app:libIZO_setCornerRadius="@dimen/dimedn3dp"
+        app:libIZO_setPrefixTextColor="@color/colorAccent"
+        app:libIZO_setStrokeWidth="@dimen/dimen1dp"
+        tools:ignore="RtlHardcoded" />
+
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_login"
+        android:fontFamily="@font/qs_bold"
+        android:text="@string/next"
+        android:textColor="@color/white" />
+</androidx.appcompat.widget.LinearLayoutCompat>

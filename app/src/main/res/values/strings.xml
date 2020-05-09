@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">test</string>
+    <string name="error_null">Silahkan Input Nama</string>
+    <string name="input_text_disini">Input Nama</string>
+    <string name="next">Next</string>
+    <string name="nama">Nama</string>
+    <string name="titi2">:</string>
+    <string name="default_nama">Ihsan Abdurahman</string>
+    <string name="guest">Choose Guest</string>
+    <string name="event">Choose Event</string>
+    <string name="detail_payment">nama header</string>
+    <string name="default_title">Test</string>
+    <string name="default_event">Lailatul Koding</string>
+    <string name="default_date">24 Mei 2018</string>
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/dimen16dp"
+    tools:context=".view.activities.choose.ChooseActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen7dp"
+        android:layout_marginBottom="@dimen/dimen7dp">
+
+        <TableRow>
+
+            <TextView
+                android:layout_column="1"
+                android:fontFamily="@font/qs_reguler"
+                android:padding="@dimen/dimen5dp"
+                android:text="@string/nama"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text14sp" />
+
+            <TextView
+                android:fontFamily="@font/qs_reguler"
+                android:padding="@dimen/dimen5dp"
+                android:text="@string/titi2"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text14sp" />
+
+            <TextView
+                android:id="@+id/txt_halaman"
+                android:fontFamily="@font/qs_reguler"
+                android:padding="@dimen/dimen5dp"
+                android:text="@string/default_nama"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text14sp" />
+
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/btn_event"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen10dp"
+        android:layout_marginBottom="@dimen/dimen10dp"
+        android:background="@drawable/bg_login"
+        android:fontFamily="@font/qs_bold"
+        android:text="@string/event"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btn_guest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_login"
+        android:fontFamily="@font/qs_bold"
+        android:text="@string/guest"
+        android:textColor="@color/white" />
+</androidx.appcompat.widget.LinearLayoutCompat>
